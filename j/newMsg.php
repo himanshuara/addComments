@@ -13,7 +13,7 @@ function getReturnStr($msg){
     return $str;
 }
 
-$message =  $_POST['comment'] ;
+$message =  $_GET['comment'] ;
 
 $newmsg = getReturnStr($message);
 
