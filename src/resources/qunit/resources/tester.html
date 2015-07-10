@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Qunit Testing DashBoard</title>
+<link rel="stylesheet" href="../c/qunit-1.14.0.css">
+<link rel="stylesheet" href="../c/common.css">
+
+
+<!--<link rel="stylesheet" href="../c/lightBox.css">-->
+<script>var testObject = {};</script>
+
+</head>
+<body>
+
+
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+
+<form name="testFor">
+    <select id="pluginList"><option value="-1">select</option></select>
+    <button type="submit" class="blueBtn">Run Test</button>
+    <button class="grayBtn" onclick="document.location.reload();">Reset</button>
+    <table class="guidlines">
+	    <tr><td>* Its advised to reset tool for another test</td></tr>
+	    <tr><td>* Add timeouts in execution of dependent files of data-covered files (Blanket.js adds covered file again for covereage testing )</td></tr>        
+    </table>
+</form>
+<script src="../j/common.js"></script>
+<script src="../j/resourceConfig.js"></script>
+</body>
+</html>

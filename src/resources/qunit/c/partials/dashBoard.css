@@ -1,0 +1,7 @@
+form[name=testFor] { text-align: center; margin: 10px 0; }
+form[name=testFor] button { min-width: 115px; }
+
+#pluginList { font-size: 18px; vertical-align: middle; width: 200px; border: 1px solid #ccc; height: 40px; }
+
+table.guidlines { width: 33%; margin: auto; }
+table.guidlines td { text-align: left; }

@@ -1,0 +1,139 @@
+/*Styles for add comment on track referral*/
+.posR{position:relative;}
+.upArr {
+width: 17px;
+height: 8px;
+left:278px;
+background: url(../i/emp-icons_v1.1.png) no-repeat;
+background-position: -137px -4px;
+background-color: #fff;
+position: relative;
+z-index: 5;
+display: inline-block;
+vertical-align: text-bottom;
+overflow: hidden;
+*top:-14px;
+*left:292px;
+}
+.dropLayerCont {
+visibility: visible;
+opacity: 1;
+transition: opacity 1s linear;
+height: auto;
+line-height: 1;
+-moz-transition: all .1s ease-in-out;
+/*transition: all .1s ease-in-out;*/
+}
+
+
+
+
+.dropLayer, .dropmenu {
+background: #fff;
+border: 1px solid #cacaca;
+position: absolute;
+margin: -1px 0 0;
+z-index: 1;
+
+}
+.dropLayer {
+line-height: 20px;
+
+width:300px;
+}
+.dropLayerCont {
+top: 0px;
+left: -269px;
+position: absolute;
+*z-index:2;
+}
+
+.addRsn .dropLayerCont{
+top: 0px;
+left: -278px;
+*top:6px;
+*left:-298px;
+}
+.messages{
+max-height:170px;
+overflow:auto;
+}
+
+.btn-primary {
+background: #36a0e3;
+color: #fff;
+border: 1px solid #36a0e3;
+}
+
+.btn-small {
+font-size: 12px;
+padding: 5px 17px;
+}
+
+.btn, .btn-large, .btn-small {
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+font: 14px/14px;
+}
+
+.textArea.big {
+width: 98%;
+height: 40px;
+padding: 1%;
+font-size: 12px;
+}
+
+.addBtnWrapper{
+padding: 5px 0px 5px 0px;
+display: block;
+height: 25px;
+}
+.addBtnCont{
+padding:10px 5px 10px 5px;
+}
+
+.sDrop{
+border-bottom: 1px solid #b3b3b3;
+}
+.tuple{
+padding: 5px;
+border-bottom: 1px solid #ededed;
+}
+.comment_time,.USERNAME{
+text-align: left;
+color: #bebebe;
+font-size: 11px;
+padding-left: 5px;
+}
+.comment{
+text-align: left;
+color: #7f7f7f;
+font-size: 11px;
+padding-left: 5px;
+}
+.cmmntCont,.cmmntRdOnly{
+width:25px;
+margin-top:5px;
+padding-right: 5px;
+}
+.cmmntCont{
+*position:relative;
+*z-index:1;
+}
+.cmmntPfData,.cmmntAjax,.cmmntRdOnly,.cmmntTupTpl,.cmmntFotTpl{
+
+    width: 18px;
+    height: 18px;
+    border:1px solid #b3b3b3;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    left: 12px;
+    bottom: 2px;
+    line-height: 18px;
+    position:absolute;
+    cursor:pointer;
+}

@@ -1,0 +1,57 @@
+/*baseURLs for Dev*/
+/*baseURLs for Test*/
+/*  	 $base100URL : '../../100';
+	$base101URL : '../../101';
+	$base103URL : '../../103';
+	$base109URL : '../../109';
+	$base121URL : '../../121';
+	$base140URL : '../../140';  */
+/*baseURLs for Live*/
+/* $base140URL : 'http://static.naukri.com/newStaticContent/s/4/140'; $base121URL : 'http://static.naukri.com/newStaticContent/s/4/121'; $base109URL : 'http://static.naukri.com/newStaticContent/s/4/109'; $base103URL : 'http://static.naukri.com/newStaticContent/s/4/103'; $base100URL : 'http://static.naukri.com/newStaticContent/s/4/100';
+*/
+/*End of baseURLs*/
+/*Message Bars*/
+/*JD Summary Bar*/
+/*225px;*/
+/*button height*/
+/** Font Colors */
+/*Link Color*/
+/*Message Bars*/
+/** Footer */
+/*RHS Widgets*/
+/** TagCloud Widget */
+/*formStyle*/
+/** SRP */
+/*Form Success Message*/
+/*header*/
+/** Font Family */
+/** Start Font Sizes */
+/*RHS Widgets*/
+/*formStyle*/
+/** End Font Sizes */
+/** Start Font Weight */
+/** End Font Weight */
+/** Statrt Font Extendable :  font-size.color */
+/** End Font Extendable :  font-size.color */
+/*Light Box container vairables*/
+.ltCont, .ltLayer { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/** Section title */
+/** Section with white background and h3 title with bottom border line */
+/** LightBox CSS */
+.ltCont, .ltLayer { position: absolute; top: 0; right: 0; left: 0; bottom: 0; }
+
+.lightbox { display: none; }
+
+.ltCont.close { display: none; }
+.ltCont .lightbox_open { display: block; }
+
+.ltLayer { background: #000; -webkit-transition: opacity 0.3s; transition: opacity 0.3s; }
+.ltLayer.open { opacity: 0.5; filter: alpha(opacity=50); }
+.ltLayer.close { opacity: 0; filter: alpha(opacity=0); }
+
+.flipOpen, .flipClose { -webkit-transform-origin: 50% 0 0; transform-origin: 50% 0 0; -webkit-transition: -webkit-transform 0.3s, opacity 0.3s; transition: transform 0.3s, opacity 0.3s; }
+
+.flipOpen { -webkit-transform: perspective(1300px) rotateX(0deg); opacity: 1; transform: perspective(1300px) rotateX(0deg); opacity: 1; }
+
+.flipClose { -webkit-transform: perspective(1300px) rotateX(-60deg); opacity: 0; transform: perspective(1300px) rotateX(-60deg); opacity: 0; }
