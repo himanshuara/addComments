@@ -28,7 +28,8 @@ $(document).click(function(e) {
                 targetUrls: {
                     "save": null,
                     "delete": null,
-                    "fetch": null
+                    "fetch": null,
+                    "method":"POST"
                 },
                 maxFetchCount: 20,
                 addBtn: "addMsg",
@@ -212,7 +213,7 @@ $(document).click(function(e) {
                 var _ths = this,
                 params=$.extend({},_ths.params,{"count":opts.maxFetchCount},optns);
                 var options = {
-                    type: "POST",
+                    type: opts.targetUrls.method,
                     url: optns.url,
                     data: params,
                     dataType: "json",
@@ -346,7 +347,7 @@ $(document).click(function(e) {
                             });
                             var options = {
                                 url: opts.targetUrls.save,
-                                type: "POST",
+                                type: opts.targetUrls.method,
                                 data: params,
                                 successCallBack: function(data) {
                                     var dt = typeof data == "string" ? JSON.parse(data) : data;
