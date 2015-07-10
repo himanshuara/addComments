@@ -1,0 +1,12 @@
+/*Header*/
+.grd, .DD_updates ul li { line-height:20px; background-color:#fff; background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eaf7fb)); background: -moz-linear-gradient(top, #fff, #eaf7fb) }
+header { background-position:0 0; border-bottom:#668292 solid 1px; padding:25px 20px 0 0 }
+.naukLogo {/*background:url(../i/naukri-logo.png) 0 0 no-repeat;width:50%;min-width: 480px; */ height:55px; float:left }
+header nav { float:right; margin:25px 0 0; font-size:16px}
+header nav a{background:#688595; background: -moz-linear-gradient(top, #84b2cd, #1E67DB); background: -webkit-linear-gradient(top, #84b2cd, #1E67DB)}
+header nav a {color:#fff; float:left; padding:7px 15px; margin:3px 3px 0;}
+header nav a:hover {text-shadow: #2b4e61 1px 1px 0}
+.wrapper { padding:0 5px; overflow:hidden; max-width:1024px; margin:0 auto; min-width:300px }
+a { text-decoration:none }
+
+.naukLogo{min-width: 480px;background:url(../i/naukri-logo.png) 0 0 no-repeat;  height:55px; float:left}
