@@ -5,7 +5,7 @@
 -------------------------------------------------------
 
 ## Demo
-[Click me --:](http://dev1.fed.infoedge.com/himanshu/addComments/src/index.html)
+[Click me --:](http://aqueous-journey-7837.herokuapp.com/src/)
 
 -------------------------------------------------------
 -------------------------------------------------------
